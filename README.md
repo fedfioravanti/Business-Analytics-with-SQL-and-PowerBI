@@ -11,7 +11,7 @@ The Chinook database holds information about a digital music store and includes:
 - Over 15,000 rows of data  
 
 
-Chinook database Entity Relationship Diagram (ERD)  
+Below is the Chinook database Entity Relationship Diagram, which illustrates the relationships between the different tables.
 
 ![Chinook database ERD](notebooks/images/chinook-schema.png?raw=true)
   
@@ -21,6 +21,9 @@ Chinook database Entity Relationship Diagram (ERD)
 After connecting and testing the database, we will answer some business questions using data associated with the store.  
 Finally, we will export the database tables in CSV format, which will be used to create a semantic model in Power BI and related dashboards in the final step.  
 
+Below is the table view of the semantic model recreated in Power BI.
+
+![Chinook Power BI ERD](notebooks/images/Power-BI-model-EDR.png?raw=true)
 
 <br/><br/>
 
