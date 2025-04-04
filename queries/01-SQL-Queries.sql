@@ -34,7 +34,7 @@ GROUP BY a.artist_id, a.name
 ORDER BY Songs DESC
 LIMIT 20;
 
-/* Which artist earned the most */
+/* Which artist earned the most? */
 SELECT a.name as 'Artist Name', SUM(l.unit_price * l.quantity) as 'Amount Spent (USD)'
 FROM artist a
 JOIN album b
